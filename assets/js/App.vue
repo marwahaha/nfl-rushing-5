@@ -87,7 +87,7 @@ export default {
         csv += '\n'
       })
 
-      if (csv == null) return
+      if (displayed_items.length === 0) return
 
       //Create hidden anchor link on webpage that hyperlinks to the file just created in memory
       var link = document.createElement('a')
